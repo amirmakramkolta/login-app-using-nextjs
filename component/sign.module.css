@@ -1,0 +1,49 @@
+.signBody{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+.leftSign{
+    padding: 50px;
+}
+.rightSign{
+    display: none;
+    background-image: url("./Login.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #ebb29dcf;
+}
+
+.weclome{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.hr{
+    width: 30px;
+}
+.intro{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width:992px) {
+    .rightSign{
+        display: flex;
+    }
+}
